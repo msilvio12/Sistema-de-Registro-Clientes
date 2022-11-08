@@ -1,0 +1,39 @@
+''''
+class Persona():
+    def __init__(self):
+        self.codigo=0
+        self.nombre=""
+        self.edad=0
+
+
+
+empleado= Persona()
+empleado.codigo =input("CODIGO: ")
+empleado.nombre=input("NOMBRE: ")
+empleado.edad=input("EDAD: ")
+
+print(empleado.codigo, empleado.nombre, empleado.edad, sep=",")
+'''
+
+class Persona():
+     def __init__(self):
+        self.codigo=0
+        self.nombre=""
+        self.edad=0
+
+
+def REGISTRO(Cantidad):
+    arreglo= []
+    for contador in range(Cantidad):
+        arreglo.append(Persona())
+        return arreglo
+
+
+empleado = REGISTRO(3)
+for contador in range(3)
+print("PERSONA", contador + 1, ":" )
+empleado[contador].codigo= input("   CODIGO:  ")  
+empleado[contador].nombre= input("   NOMBRE: ")
+empleado[contador].edad= input("   EDAD: ")   
+
+print()
